@@ -59,11 +59,9 @@ public class Manager : MonoBehaviour {
 		float bWidth = buttonSize - bottomRow.spacing;
 		for (int i = 1; i < bottomButtons.Length;i++)
 		{
-			bottomButtons[i].rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal,
-																	 bWidth);
+			bottomButtons[i].rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, bWidth);
 		}
-		bottomButtons[0].rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal,
-																 bWidth * 2 + bottomRow.spacing);
+		bottomButtons[0].rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, bWidth * 2 + bottomRow.spacing);
 	}
 
 	void clearCalc()

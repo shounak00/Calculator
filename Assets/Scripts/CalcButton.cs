@@ -27,6 +27,7 @@ public class CalcButton : MonoBehaviour {
 			return _calcManager;
 		}
 	}
+
 	static Manager _calcManager;
 
 
@@ -42,7 +43,7 @@ public class CalcButton : MonoBehaviour {
 
 	public void onTapped()
 	{
-		Debug.Log("Tapped: " + label.text);
+		Debug.Log("Tapped: " + label.text); //for checking the button cl
 		calcManager.buttonTapped(label.text[0]);
 	}
 }
