@@ -107,7 +107,7 @@ public class Manager : MonoBehaviour {
 					errorDisplayed = true;
 					digitLabel.text = "ERROR";
 				}
-				break;
+				break; 
 			default:
 				Debug.Log("unknown: " + activeOp);
 				break;
